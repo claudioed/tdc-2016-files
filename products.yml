@@ -1,6 +1,7 @@
 
 info:
   microservice: products
+  info: default instance only for development purpose
 ---
 spring:
   profiles: default
