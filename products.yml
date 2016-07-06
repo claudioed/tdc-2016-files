@@ -1,7 +1,6 @@
 
 info:
   microservice: products
-  information: default instance only for development purpose
 ---
 spring:
   profiles: default
@@ -17,3 +16,6 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/  
+
+service:
+  information: information: default instance only for development purpose
