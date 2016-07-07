@@ -14,4 +14,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/  
 
-information: default instance only for development purpose
+information: default instance only for testing purpose
