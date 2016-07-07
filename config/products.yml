@@ -3,8 +3,7 @@ info:
   microservice: products
 ---
 spring:
-  profiles: default
-    active: true
+  active: true
     
 server:
   port: 9001
